@@ -1,0 +1,227 @@
+body{
+    background-color:  #272121;
+    color:  #f6e9e9;
+}
+
+.navbar{
+    background-color:  #d8d7c3;
+    width: 100%;
+    height: 100px;
+}
+h1{
+    font-size: x-large;
+    font-family: "Tiny5", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+}
+#loout{
+    background-color: black;
+    color: white;
+    border-radius: 8px ;
+    width: 110px;
+    height: 50px;
+}
+h2{
+    font-size: x-large;
+    font-family: "Tiny5", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: #f6e9e9;
+    position: relative;
+    left: 3px;
+    top: -25px;
+}
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+.card{
+    background-color: black;
+    position: relative;
+    top: 111px;
+    left: -170px;
+    width: 70px;
+    border-radius: 8px;
+    
+}
+.header_search{
+    background-color: black;
+    position: relative;
+    box-shadow: 7px black;
+    width: 387px;
+    top: -21px;
+    height: 50px;
+    box-shadow: 9px 5px 14px 093028;
+    border-radius: 35px;
+    margin: 40px auto 0;
+}
+
+#filmname{
+    background-color: black;
+    border: none;
+    position: relative;
+    top: 10px;
+    left: 37px;
+    color: white;
+    width: 150px;
+}
+img{
+    width: 50px;
+}
+.trend{
+    position: relative;
+    top: 16px;
+    left: -113px;
+    font-weight: bold;
+    max-height: 20px;
+}
+
+.films{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.episodes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 6rem;
+    margin-left: 18.5rem;
+    /* Remove the following line */
+    /* left: 300px; */
+}
+
+.card2{
+    background-color: black;
+    position: relative;
+    top: 111px;
+    left: -170px;
+    width: 70px;
+    border-radius: 8px;
+    
+}
+
+.ess{
+    position: relative;
+    left: 30px;
+    top: 170px;
+    font-weight: bold;
+    max-width: 180px;
+
+}
+#vv{
+    color: black;
+
+}
+
+.card2:hover{
+    background-color: white;
+}
+
+.trend:hover{
+    cursor: pointer;
+    color: #f6e9e9;
+}
+
+#vv:hover{
+    cursor: pointer;
+    color: #f6e9e9;
+}
+
+.slider-wrapper {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 50px; 
+    left: 1170px;
+    margin-bottom: -60px;
+}
+
+.slider {
+    display: inline-block;
+    white-space: nowrap;
+    animation: slide 7s linear infinite;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+.slider {
+    font-size: 20px;
+    font-family: "Tiny5", sans-serif;
+
+    font-weight: bold;
+    color: #f6e9e9;
+    padding: 10px;
+}
+
+.foo p{
+    color: white;
+    position: relative;
+    left: 605px;
+    top: 45px;     }
+ .designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+.links{
+    position: relative;
+    right: 180px;
+    top: 2px;    }
+
+
+    #cont{
+        color: white;
+        margin: 0;
+        position: relative;
+        left: 715px;
+        top: 50px;
+        font-size: 23px;   
+     }
+      .foo{
+        background-color: black;
+        height: 200px;  
+    position: relative;
+top: 300px;  }
+
+a{
+    color: black;
+    text-decoration: none;
+
+ }
+
+ #c1{
+    position: relative;
+    top: 120px;
+    left: 705px;
+}
+#c2{
+    position: relative;
+    top: 120px;
+    left: 730px;
+}
+#c3{
+    position: relative;
+    top: 119px;
+    left: 750px;
+}
+
+#c4{
+    position: relative;
+    top: 118px;
+    left: 769px;
+}
